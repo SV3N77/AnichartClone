@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+html {
+  background-color: #f8f8f9;
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background: #2b2d42;
+  padding-top: 2rem;
+  width: 100%;
+  position: relative;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: #2b2d42;
+  padding: 0.5em;
+  margin: 0 12vw;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.logo-link {
+  display: inline-block;
+  font: 0;
+}
+
+.seasons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.season {
+  color: #f8f8f9;
+  text-align: center;
+  width: 9rem;
+}
+
+.season-name {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.season-year {
+  color: #8b8fb6;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.charts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+}
+
+.charts,
+.svg-icon {
+  color: #bcbedc;
+  transition: color 0.3s;
+}
+
+.svg-icon {
+  display: inline-block;
+  color: inherit;
+  vertical-align: middle;
+  fill: none;
+  stroke: currentColor;
+}
+
+.label {
+  color: #999ec7;
+  padding-top: 5px;
+  font-size: 0.8rem;
+  opacity: 0.9;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s;
+  outline: 0;
+}
