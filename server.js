@@ -1,11 +1,10 @@
-const http = require("http");
-const fs = require("fs");
+const express = require("express");
+const app = express();
 
-const requestListener = (request, response) => {
-  response.writeHead(200, { "Content-Type": "text/html" });
-  response.write(fs.readFileSync("winter.html"));
-  response.end();
-};
+app.use(express.static("./public"));
 
-const server = http.createServer(requestListener);
-server.listen(8080);
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
+
+app.listen(3000, () => console.log("Server started on port 3000"));

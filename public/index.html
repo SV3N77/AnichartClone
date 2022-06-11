@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="Reset.css" />
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+
+  <body class="container">
+    <header class="header">
+      <div class="navbar">
+        <a href="winter.html" class="logo-link">
+          <svg
+            viewBox="0 0 408.8 308.5"
+            class="svg-icon"
+            aria-label="AniChart"
+            style="width: 45px"
+          >
+            <path
+              fill="#41B1EA"
+              stroke="none"
+              pid="0"
+              d="M224.8 291.7c21 10.7 44.7 16.8 69.8 16.8 39.2 0 76.8-15 105.5-41.6 8.8-8.4 7.6-18-1-25.5l-30.6-25.8c-8.7-7-16.3-6-25.4.8-13.8 11-30.8 16.7-48.4 16.7-43.6 0-79.3-35.3-79.3-79 0-43.6 35.6-79 79.3-79.2 18.2 0 36 6.2 50 17.8 8.7 7 16.3 8.3 25 1.2L401 69.4c9.4-7.5 10.6-16.7 2.3-25C374.3 16 335.3 0 294.6 0 236 0 185 32.8 158.8 81.2l66 210.5z"
+            ></path>
+            <path
+              fill="#FEFEFE"
+              stroke="none"
+              pid="1"
+              d="M107.3 3L0 308.3h83.3l18.2-52.8h90.8l17.7 52.8h83L186 3h-78.7zm13.2 184.8l26-84.6 28.5 84.6h-54.5z"
+            ></path>
+          </svg>
+        </a>
+        <div class="seasons">
+          <a href="winter.html" class="season">
+            <div class="season-name">Winter</div>
+            <div class="season-year">2022</div>
+          </a>
+          <a href="summer.html" class="season"
+            ><div class="season-name">Summer</div>
+            <div class="season-year">2022</div>
+          </a>
+          <a href="spring.html" class="season">
+            <div class="season-name">Spring</div>
+            <div class="season-year">2022</div>
+          </a>
+          <a href="fall.html" class="season">
+            <div class="season-name">Fall</div>
+            <div class="season-year">2022</div>
+          </a>
+        </div>
+        <div class="charts">
+          <a href="/airing">
+            <svg
+              viewBox="0 0 18 18"
+              class="svg-icon"
+              aria-label="Airing"
+              style="width: 14px"
+            >
+              <path
+                pid="0"
+                d="M14.25 3H3.75a1.5 1.5 0 0 0-1.5 1.5V15a1.5 1.5 0 0 0 1.5 1.5h10.5a1.5 1.5 0 0 0 1.5-1.5V4.5a1.5 1.5 0 0 0-1.5-1.5zM12 1.5v3M6 1.5v3M2.25 7.5h13.5"
+                _stroke="#EDF1F5"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <div class="label">Airing</div>
+          </a>
+          <a href="/archive" class=""
+            ><svg
+              viewBox="0 0 18 18"
+              class="svg-icon"
+              aria-label="Archive"
+              style="width: 14px"
+            >
+              <g
+                clip-path="url(#clip0)"
+                _stroke="#EDF1F5"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  pid="0"
+                  d="M15.75 6v8.75a1 1 0 0 1-1 1H3.25a1 1 0 0 1-1-1V6M16.25 2.25H1.75a1 1 0 0 0-1 1V5a1 1 0 0 0 1 1h14.5a1 1 0 0 0 1-1V3.25a1 1 0 0 0-1-1zM7.5 9h3"
+                ></path>
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <path pid="1" _fill="#fff" d="M0 0h18v18H0z"></path>
+                </clipPath>
+              </defs>
+            </svg>
+            <div class="label">Archive</div>
+          </a>
+          <a href="/tba" class=""
+            ><svg
+              viewBox="0 0 17 15"
+              class="svg-icon"
+              aria-label="To be announced"
+              style="width: 14px"
+            >
+              <path
+                pid="0"
+                d="M9.625 13.125L15.25 7.5 9.625 1.875M1.75 13.125L7.375 7.5 1.75 1.875"
+                _stroke="#E1E1E4"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+            <div class="label">TBA</div>
+          </a>
+          <a href="/settings" class="">
+            <svg
+              viewBox="0 0 24 24"
+              class="svg-icon"
+              stroke-width="2px"
+              aria-label="Settings"
+              style="width: 14px"
+            >
+              <circle pid="0" cx="12" cy="12" r="3"></circle>
+              <path
+                pid="1"
+                d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"
+              ></path>
+            </svg>
+            <div class="label">Settings</div>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main-content">
+        <div class="section-heading">
+          <h2 style="font-weight: 600; font-size: 2rem">TV</h2>
+          <div class="section-heading-filters">
+            <div class="tooltip">
+              <svg
+                version="1.1"
+                viewBox="0 0 19 19"
+                class="icon svg-icon"
+                style="height: 24px"
+              >
+                <path
+                  pid="0"
+                  d="M14.25 6.333a2.375 2.375 0 1 0 0-4.75 2.375 2.375 0 0 0 0 4.75zM4.75 11.875a2.375 2.375 0 1 0 0-4.75 2.375 2.375 0 0 0 0 4.75zM14.25 17.417a2.375 2.375 0 1 0 0-4.75 2.375 2.375 0 0 0 0 4.75zM6.8 10.695l5.407 3.151M12.2 5.154l-5.4 3.15"
+                  _stroke="#777A9E"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </div>
+            <div class="tooltip">
+              <svg
+                version="1.1"
+                viewBox="0 0 24 24"
+                class="icon svg-icon"
+                style="height: 24px"
+              >
+                <path
+                  pid="0"
+                  d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2v11z"
+                  _stroke="#777A9E"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <path
+                  pid="1"
+                  d="M12 17a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"
+                  _stroke="#777A9E"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </div>
+            <div class="tooltip">
+              <svg
+                version="1.1"
+                viewBox="0 0 19 19"
+                class="icon svg-icon"
+                style="height: 24px"
+              >
+                <path
+                  pid="0"
+                  d="M8.708 15.042a6.333 6.333 0 1 0 0-12.667 6.333 6.333 0 0 0 0 12.667zM16.625 16.625l-3.444-3.444"
+                  _stroke="#777A9E"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </div>
+            <div class="tooltip">
+              <svg
+                version="1.1"
+                viewBox="0 0 12 19"
+                class="icon svg-icon svg-fill"
+                style="height: 24px"
+              >
+                <g clip-path="url(#clip0)">
+                  <path
+                    fill="currentColor"
+                    stroke="none"
+                    pid="0"
+                    d="M9.69 10.688H1.714c-1.518 0-2.287 1.918-1.208 3.039l3.987 4.156c.666.694 1.749.694 2.419 0l3.99-4.156c1.068-1.117.31-3.04-1.212-3.04zM5.7 16.625l-3.99-4.156h7.98L5.7 16.625zM1.71 8.312h7.977c1.517 0 2.287-1.918 1.207-3.039L6.908 1.117a1.666 1.666 0 0 0-2.419 0L.499 5.273C-.57 6.39.189 8.313 1.71 8.313zM5.7 2.375l3.99 4.156H1.71L5.7 2.375z"
+                    _fill="#777A9E"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0">
+                    <path
+                      fill="currentColor"
+                      stroke="none"
+                      pid="1"
+                      _fill="#fff"
+                      d="M0 0h11.4v19H0z"
+                    ></path>
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="main-content-animecards">
+          <div class="animecard">
+            <div
+              class="animecard-image"
+              style="background-image: url(/images/AOT.png)"
+            >
+              <div class="animecard-image-overlay">
+                <div class="animecard-image-overlay-content">
+                  <div class="animecard-image-overlay-content-title">
+                    <h3>Attack On Titan</h3>
+                  </div>
+                  <div class="animecard-image-overlay-content-studios">
+                    <p>Studio Wit</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="animecard-info">
+              <div class="animecard-info-episode">
+                <div class="animecard-info-episode-time">
+                  <div style="font-weight: 600">12 episode aired on</div>
+                  <div style="font-size: 1.5rem">January 10, 2022</div>
+                  <div>Sequel to Attack On Titan</div>
+                </div>
+                <div class="animecard-info-episode-ranks">
+                  <div class="icon-stat">
+                    <svg
+                      version="1.1"
+                      viewBox="0 0 512 512"
+                      class="svg-icon svg-fill"
+                      style="width: 18px"
+                    >
+                      <path
+                        fill="green"
+                        stroke="none"
+                        pid="0"
+                        _fill="currentColor"
+                        d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 448c-110.3 0-200-89.7-200-200S137.7 56 248 56s200 89.7 200 200-89.7 200-200 200zm-80-216c17.7 0 32-14.3 32-32s-14.3-32-32-32-32 14.3-32 32 14.3 32 32 32zm160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32-32 14.3-32 32 14.3 32 32 32zm4 72.6c-20.8 25-51.5 39.4-84 39.4s-63.2-14.3-84-39.4c-8.5-10.2-23.7-11.5-33.8-3.1-10.2 8.5-11.5 23.6-3.1 33.8 30 36 74.1 56.6 120.9 56.6s90.9-20.6 120.9-56.6c8.5-10.2 7.1-25.3-3.1-33.8-10.1-8.4-25.3-7.1-33.8 3.1z"
+                      ></path>
+                    </svg>
+                    <span class="stat">87%</span>
+                  </div>
+                  <div class="icon-stat">
+                    <svg
+                      version="1.1"
+                      viewBox="0 0 18 18"
+                      class="svg-icon"
+                      style="width: 18px"
+                    >
+                      <path
+                        stroke="red"
+                        fill="none"
+                        pid="0"
+                        d="M15.63 3.458a4.125 4.125 0 0 0-5.835 0L9 4.253l-.795-.795A4.126 4.126 0 1 0 2.37 9.293l.795.795L9 15.922l5.835-5.835.795-.795a4.125 4.125 0 0 0 0-5.835v0z"
+                        _stroke="#EF5C5C"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                    <span class="stat">#1</span>
+                  </div>
+                </div>
+              </div>
+              <div class="animecard-info-description">
+                <p>
+                  The war for Paradis zeroes in on Shiganshina just as
+                  Jaegerists have seized control. After taking a huge blow from
+                  a surprise attack led by Eren, Marley swiftly acts to return
+                  the favor. With Zeke’s true plan revealed and a military
+                  forced under new rule, this battle might be fought on two
+                  fronts. Does Eren intend on fulfilling his half-brother’s
+                  wishes or does he have a plan of his own?
+                </p>
+              </div>
+              <div class="animecard-info-genres">
+                <span>Action</span>
+                <span>Drama</span>
+                <span>Fantasy</span>
+                <svg
+                  version="1.1"
+                  viewBox="0 0 24 24"
+                  class="icon svg-icon"
+                  aria-label="Add HighLight"
+                  style="width: 26px; margin-left: auto"
+                >
+                  <circle pid="0" cx="12" cy="12" r="10"></circle>
+                  <path pid="1" d="M12 8v8M8 12h8"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="animecard">
+            <div
+              class="animecard-image"
+              style="background-image: url(/images/AOT.png)"
+            >
+              <div class="animecard-image-overlay">
+                <div class="animecard-image-overlay-content">
+                  <div class="animecard-image-overlay-content-title">
+                    <h3>Attack On Titan</h3>
+                  </div>
+                  <div class="animecard-image-overlay-content-studios">
+                    <p>Studio Wit</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="animecard-info">
+              <div class="animecard-info-episode">
+                <div class="animecard-info-episode-time">
+                  <div style="font-weight: 600">12 episode aired on</div>
+                  <div style="font-size: 1.5rem">January 10, 2022</div>
+                  <div>Sequel to Attack On Titan</div>
+                </div>
+                <div class="animecard-info-episode-ranks">
+                  <div class="icon-stat">
+                    <svg
+                      version="1.1"
+                      viewBox="0 0 512 512"
+                      class="svg-icon svg-fill"
+                      style="width: 18px"
+                    >
+                      <path
+                        fill="green"
+                        stroke="none"
+                        pid="0"
+                        _fill="currentColor"
+                        d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 448c-110.3 0-200-89.7-200-200S137.7 56 248 56s200 89.7 200 200-89.7 200-200 200zm-80-216c17.7 0 32-14.3 32-32s-14.3-32-32-32-32 14.3-32 32 14.3 32 32 32zm160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32-32 14.3-32 32 14.3 32 32 32zm4 72.6c-20.8 25-51.5 39.4-84 39.4s-63.2-14.3-84-39.4c-8.5-10.2-23.7-11.5-33.8-3.1-10.2 8.5-11.5 23.6-3.1 33.8 30 36 74.1 56.6 120.9 56.6s90.9-20.6 120.9-56.6c8.5-10.2 7.1-25.3-3.1-33.8-10.1-8.4-25.3-7.1-33.8 3.1z"
+                      ></path>
+                    </svg>
+                    <span class="stat">87%</span>
+                  </div>
+                  <div class="icon-stat">
+                    <svg
+                      version="1.1"
+                      viewBox="0 0 18 18"
+                      class="svg-icon"
+                      style="width: 18px"
+                    >
+                      <path
+                        stroke="red"
+                        fill="none"
+                        pid="0"
+                        d="M15.63 3.458a4.125 4.125 0 0 0-5.835 0L9 4.253l-.795-.795A4.126 4.126 0 1 0 2.37 9.293l.795.795L9 15.922l5.835-5.835.795-.795a4.125 4.125 0 0 0 0-5.835v0z"
+                        _stroke="#EF5C5C"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                    <span class="stat">#1</span>
+                  </div>
+                </div>
+              </div>
+              <div class="animecard-info-description">
+                <p>
+                  The war for Paradis zeroes in on Shiganshina just as
+                  Jaegerists have seized control. After taking a huge blow from
+                  a surprise attack led by Eren, Marley swiftly acts to return
+                  the favor. With Zeke’s true plan revealed and a military
+                  forced under new rule, this battle might be fought on two
+                  fronts. Does Eren intend on fulfilling his half-brother’s
+                  wishes or does he have a plan of his own?
+                </p>
+              </div>
+              <div class="animecard-info-genres">
+                <span>Action</span>
+                <span>Drama</span>
+                <span>Fantasy</span>
+                <svg
+                  version="1.1"
+                  viewBox="0 0 24 24"
+                  class="icon svg-icon"
+                  aria-label="Add HighLight"
+                  style="width: 26px; margin-left: auto"
+                >
+                  <circle pid="0" cx="12" cy="12" r="10"></circle>
+                  <path pid="1" d="M12 8v8M8 12h8"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="animecard">
+            <div
+              class="animecard-image"
+              style="background-image: url(/images/AOT.png)"
+            >
+              <div class="animecard-image-overlay">
+                <div class="animecard-image-overlay-content">
+                  <div class="animecard-image-overlay-content-title">
+                    <h3>Attack On Titan</h3>
+                  </div>
+                  <div class="animecard-image-overlay-content-studios">
+                    <p>Studio Wit</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="animecard-info">
+              <div class="animecard-info-episode">
+                <div class="animecard-info-episode-time">
+                  <div style="font-weight: 600">12 episode aired on</div>
+                  <div style="font-size: 1.5rem">January 10, 2022</div>
+                  <div>Sequel to Attack On Titan</div>
+                </div>
+                <div class="animecard-info-episode-ranks">
+                  <div class="icon-stat">
+                    <svg
+                      version="1.1"
+                      viewBox="0 0 512 512"
+                      class="svg-icon svg-fill"
+                      style="width: 18px"
+                    >
+                      <path
+                        fill="green"
+                        stroke="none"
+                        pid="0"
+                        _fill="currentColor"
+                        d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 448c-110.3 0-200-89.7-200-200S137.7 56 248 56s200 89.7 200 200-89.7 200-200 200zm-80-216c17.7 0 32-14.3 32-32s-14.3-32-32-32-32 14.3-32 32 14.3 32 32 32zm160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32-32 14.3-32 32 14.3 32 32 32zm4 72.6c-20.8 25-51.5 39.4-84 39.4s-63.2-14.3-84-39.4c-8.5-10.2-23.7-11.5-33.8-3.1-10.2 8.5-11.5 23.6-3.1 33.8 30 36 74.1 56.6 120.9 56.6s90.9-20.6 120.9-56.6c8.5-10.2 7.1-25.3-3.1-33.8-10.1-8.4-25.3-7.1-33.8 3.1z"
+                      ></path>
+                    </svg>
+                    <span class="stat">87%</span>
+                  </div>
+                  <div class="icon-stat">
+                    <svg
+                      version="1.1"
+                      viewBox="0 0 18 18"
+                      class="svg-icon"
+                      style="width: 18px"
+                    >
+                      <path
+                        stroke="red"
+                        fill="none"
+                        pid="0"
+                        d="M15.63 3.458a4.125 4.125 0 0 0-5.835 0L9 4.253l-.795-.795A4.126 4.126 0 1 0 2.37 9.293l.795.795L9 15.922l5.835-5.835.795-.795a4.125 4.125 0 0 0 0-5.835v0z"
+                        _stroke="#EF5C5C"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                    <span class="stat">#1</span>
+                  </div>
+                </div>
+              </div>
+              <div class="animecard-info-description">
+                <p>
+                  The war for Paradis zeroes in on Shiganshina just as
+                  Jaegerists have seized control. After taking a huge blow from
+                  a surprise attack led by Eren, Marley swiftly acts to return
+                  the favor. With Zeke’s true plan revealed and a military
+                  forced under new rule, this battle might be fought on two
+                  fronts. Does Eren intend on fulfilling his half-brother’s
+                  wishes or does he have a plan of his own?
+                </p>
+              </div>
+              <div class="animecard-info-genres">
+                <span>Action</span>
+                <span>Drama</span>
+                <span>Fantasy</span>
+                <svg
+                  version="1.1"
+                  viewBox="0 0 24 24"
+                  class="icon svg-icon"
+                  aria-label="Add HighLight"
+                  style="width: 26px; margin-left: auto"
+                >
+                  <circle pid="0" cx="12" cy="12" r="10"></circle>
+                  <path pid="1" d="M12 8v8M8 12h8"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
