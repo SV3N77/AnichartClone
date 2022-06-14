@@ -6,9 +6,32 @@
       "episodes": "12",
       "source": "Source Anime + Manga",
       "image": "/images/AOT.png",
-      "genre": ["Action", "Drama", "Fantasy"],
-      "rating": [1, 87],
+      "genres": ["Action", "Drama", "Fantasy"],
+      "rating": 87,
+      "ranking": 1,
       "description": "The war for Paradis zeroes in on Shiganshina just as Jaegerists have seized control. After taking a huge blow from a surprise attack led by Eren, Marley swiftly acts to return the favor. With Zeke’s true plan revealed and a military forced under new rule, this battle might be fought on two fronts. Does Eren intend on fulfilling his half-brother’s wishes or does he have a plan of his own?"
+    },
+    {
+      "title": "Bakugan: Evolutions",
+      "studio": "TMS Entertainment",
+      "episodes": "26",
+      "source": "Source Anime + Manga",
+      "image": "/images/bakugan.png",
+      "genres": ["Action", "Comedy", "Fantasy"],
+      "rating": 60,
+      "ranking": 25,
+      "description": "In Bakugan: Evolutions, fan-favourite Bakugan heroes – including Drago, Trox, Pegatrix, Hydorous, Howlkor and Pharol – return stronger, faster and better than ever! Strange occurrences begin to happen in the new action-packed season; elemental energy from Vestroia is seeping into Earth, creating strange phenomena and causing Bakugan to rage out with excess energy! It’s not all bad though, as our heroes realize the Vestroian elemental energy is also causing elemental evolutions among our Bakugan! Along with these new evolutions comes a new breed of elemental brawlers, propelling the Awesome Brawlers to adapt and in effect, take Bakugan brawling to a whole new level, unlocking even more awesome powers and evolutions! Once again, the fate of two worlds, Earth and Vestroia, rests in the hands of the Awesome Brawlers and their Bakugan partners."
+    },
+    {
+      "title": "Genjitsu Shugi Yuusha no Oukoku Saikenki",
+      "studio": "J.C. Staff",
+      "episodes": "12",
+      "source": "Source Anime + Manga",
+      "image": "/images/genshugy.png",
+      "genres": ["Action", "Adventure", "Fantasy", "Romance"],
+      "rating": 71,
+      "ranking": 20,
+      "description": "Suddenly summoned to a fantasy world and betrothed to the princess, Kazuya Souma is crowned the new king after providing the royal family with impressive advice. To rule the kingdom, he's taking the nontraditional (and very human) route of administrative reform. In a realm of dragons and elves, will this revolutionary's unique path prove effective?"
     }
   ]
 }
