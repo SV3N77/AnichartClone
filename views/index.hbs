@@ -133,7 +133,7 @@
     <main>
       <div class="main-content">
         <div class="section-heading">
-          <h2 style="font-weight: 600; font-size: 2rem">TV</h2>
+          <h2 style="font-weight: 600; font-size: 1.6rem">TV</h2>
           <div class="section-heading-filters">
             <div class="tooltip">
               <svg
@@ -298,9 +298,12 @@
                   </p>
                 </div>
                 <div class="animecard-info-genres">
-                  {{#each this.genres}}
-                    <span>{{this}}</span>
-                  {{/each}}
+                  <div class="animecard-info-genres-title">
+                    {{#each this.genres}}
+                      <span>{{this}}</span>
+                    {{/each}}
+                  </div>
+
                   <svg
                     version="1.1"
                     viewBox="0 0 24 24"
