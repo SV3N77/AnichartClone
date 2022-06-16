@@ -32,6 +32,7 @@ html {
 .navbar {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.6rem;
   background: #2b2d42;
   padding: 0.5em;
   margin: 0 12vw;
@@ -46,36 +47,39 @@ html {
 
 .logo-link {
   display: inline-block;
+  margin-right: 40px;
   font: 0;
 }
 
 .seasons {
   display: flex;
   flex-direction: row;
+  gap: 1rem;
   justify-content: space-around;
 }
 
 .season {
   color: #f8f8f9;
   text-align: center;
-  width: 9rem;
 }
 
 .season-name {
-  font-size: 1.6rem;
+  font-size: 0.9rem;
   font-weight: 600;
 }
 
 .season-year {
   color: #8b8fb6;
-  font-size: 1rem;
+  font-size: 0.7rem;
   font-weight: 400;
   margin-top: 0.5rem;
 }
 .charts {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
   text-align: center;
+  margin-left: auto;
 }
 
 .charts,
@@ -94,7 +98,6 @@ html {
 
 .label {
   color: #999ec7;
-  padding-top: 5px;
   font-size: 0.8rem;
   padding: 0.2rem;
   opacity: 0.9;
@@ -242,13 +245,17 @@ a {
 .animecard-info-genres-title {
   display: flex;
   flex-wrap: wrap;
+  overflow: hidden;
   align-items: center;
+  height: 24px;
   gap: 0.4rem;
   font-size: 0.8rem;
   font-weight: 400;
 }
 
 @media screen and (max-width: 1800px) {
+  .charts {
+  }
   .main-content-animecards {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     max-width: 1300px;
@@ -258,6 +265,13 @@ a {
 }
 
 @media screen and (max-width: 1200px) {
+  .navbar {
+    margin: 0 4vw;
+  }
+
+  .logo-link {
+    margin: 0;
+  }
   .main-content-animecards {
     grid-template-columns: repeat(1, minmax(0, 1fr));
     max-width: 600px;
