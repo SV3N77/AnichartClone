@@ -254,8 +254,6 @@ a {
 }
 
 @media screen and (max-width: 1800px) {
-  .charts {
-  }
   .main-content-animecards {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     max-width: 1300px;
